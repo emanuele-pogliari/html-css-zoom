@@ -15,7 +15,7 @@ body {
 #nav-superiore {
     height: 5vh;
     position: fixed;
-    width: 100%;
+    width: calc(100% - 20px);
     top: 0;
     left: 0;
     background-color: black;
@@ -82,21 +82,47 @@ main {
     color: white;
 }
 
-.nav-container {
-    height: 30px;
-}
 
-.nav-container .audio-video {
+#menu .nav-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
 }
 
-.nav-container .audio-video .audio-container {
-    display: flex;
-    flex-direction: column;
+#menu .nav-container i {
+    font-size: 25px;
 }
 
-.nav-container .audio-video .audio-container .text {
+#menu .nav-container .fa-chevron-up {
+    font-size: 15px;
+}
+
+#menu .nav-container div .centered-controls div {
+
+    padding: 0 15px;
+
+}
+
+#menu .nav-container .exit-button {
+    color: red;
+}
+
+.sub-cont {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 0 20px;
+
+}
+
+.central-controls {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 5px 0;
+}
+
+.centered-controls {
+    text-align: center;
 }
