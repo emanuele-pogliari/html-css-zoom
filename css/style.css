@@ -14,7 +14,6 @@ body {
 
 
 #nav-superiore {
-
     position: fixed;
     width: 100%;
     height: 50px;
@@ -101,6 +100,11 @@ main {
 #menu .nav-container .fa-chevron-up {
     font-size: 10px;
 }
+
+#menu .nav-container .sub-cont .fa-chevron-up {
+    transform: translateY(7px);
+}
+
 
 #menu .nav-container div .centered-controls div {
     padding: 0 15px;
