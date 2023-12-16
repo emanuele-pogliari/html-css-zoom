@@ -26,9 +26,8 @@ body {
 #nav-superiore .upper-controls {
     color: white;
     position: absolute;
-    right: 0;
+    right: 20px;
     margin-top: 15px;
-    margin-left: 25px;
 }
 
 #nav-superiore .upper-controls>* {
@@ -37,8 +36,12 @@ body {
     padding: 5px;
 }
 
-#nav-superiore .upper-controls>i {
-    padding-left: 5px;
+#nav-superiore .upper-controls .fa-buromobelexperte {
+    padding-right: 5px;
+}
+
+#nav-superiore .upper-controls span:first-of-type {
+    margin-right: 8px;
 }
 
 main {
