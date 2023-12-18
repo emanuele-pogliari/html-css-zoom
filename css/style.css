@@ -6,12 +6,16 @@
     box-sizing: border-box;
 }
 
+/* stilizzazione elementi comuni */
+
 body {
     font-family: 'Lato';
     background-color: black;
     height: 100vh;
 }
 
+
+/* Stilizzazione navbar superiore */
 
 #nav-superiore {
     position: fixed;
@@ -43,6 +47,10 @@ body {
 #nav-superiore .upper-controls span:first-of-type {
     margin-right: 8px;
 }
+
+/* fine stilizzazione navbar superiore */
+
+/* Inizio stilizzazione contenuto princiaple */
 
 main {
     width: 100%;
@@ -76,6 +84,11 @@ main {
     color: white;
     background-color: rgba(0, 0, 0, 0.432);
 }
+
+
+/* Fine stilizzazione contenuto princiaple */
+
+/* Inizio stilizzazione menu comandi inferiori */
 
 #menu {
     width: 100%;
@@ -132,10 +145,6 @@ main {
     text-align: center;
 }
 
-#menu .nav-container * span i.fa-share-from-square {
-    color: #4BC800;
-}
-
 .exit-button {
     height: 100%;
     padding-top: calc((80px - 1em)/2);
@@ -145,3 +154,8 @@ main {
     text-transform: capitalize;
     background-color: #4A4A4A;
 }
+
+/* Fine stilizzazione menu comandi inferiori */
+
+
+/* FACCIO PRESENTE CHE SU MAC LA BARRA DI SCROLLING SCOMPARE UNA VOLTA IMPOSTATA LA PROPRIETA' OVERFLOW, ED E' VISIBILE SOLO PER MENO DI UN SECONDO E SOLO SE IL CURSORE DEL MOUSE E' POSIZIONATO SOPRA DI ESSA. HO AVUTO UN PO' DI DIFFICOLTA' A CAPIRE QUESTA COSA. */
